@@ -65,6 +65,7 @@ body {
     letter-spacing: 35px;
     animation-name: moveInLeft;
     animation-duration: 1s;
+    animation-delay: 1s;
 }
 
 .heading-primary-sub {
