@@ -44,6 +44,11 @@ body {
 
 .logo {
     height: 35px;
+    transition: all .3s ease-out;
+}
+
+.logo:hover {
+    height: 45px;
 }
 
 .text-box {
@@ -56,6 +61,7 @@ body {
 .heading-primary {
     color: #fff;
     text-transform: uppercase;
+    backface-visibility: hidden;
 }
 
 .heading-primary-main {
